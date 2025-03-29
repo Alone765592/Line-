@@ -28,7 +28,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://envs.sh/nJn.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://envs.sh/ALA.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/Lqs.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/Lqs.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/Lqs.jpg")
@@ -55,8 +55,8 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://envs.sh/ly.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'manishkumar2532006@ybl')
+QR_CODE = environ.get('QR_CODE', 'https://envs.sh/cbs.jpg')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'aloneboy765592@okicici')
 
 # ============================
 # MongoDB Configuration
@@ -85,8 +85,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/xmovieshub56')  # How
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indiaearnx.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '1668d61f2d5276b4fd2a997535e1bdbfd819cf6e')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b62c13862daac9f56fb2c02c6c45b9c6144cd41d')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/xmovieshub56')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 

@@ -70,13 +70,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'popcollection')
 # Movie Notification & Update Settings
 # ============================
 DEENDAYAL_MOVIE_UPDATE_NOTIFICATION = bool(environ.get('DEENDAYAL_MOVIE_UPDATE_NOTIFICATION', True))  # Notification On (True) / Off (False)
-DEENDAYAL_IMAGE_FETCH = bool(environ.get('DEENDAYAL_IMAGE_FETCH', True))  # On (True) / Off (False)
+DEENDAYAL_IMAGE_FETCH = bool(environ.get('DEENDAYAL_IMAGE_FETCH', False))  # On (True) / Off (False)
 CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla", "Telugu", "Malayalam", "Kannada", "Marathi", "Punjabi", "Bengoli", "Gujrati", "Korean", "Gujarati", "Spanish", "French", "German", "Chinese", "Arabic", "Portuguese", "Russian", "Japanese", "Odia", "Assamese", "Urdu"]
 
 # ============================
 # Verification Settings
 # ============================
-VERIFY = bool(environ.get('VERIFY', False))  # Verification On (True) / Off (False)
+VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 3))  # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002349501310'))  # Log channel id (make sure bot is admin)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/xmovieshub56')  # How to open tutorial link for verification
@@ -84,7 +84,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/xmovieshub56')  # How
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'b62c13862daac9f56fb2c02c6c45b9c6144cd41d')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/xmovieshub56')  # Tutorial video link for opening shortlink website
@@ -96,7 +96,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/pushpa2av')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/junsatridvsh')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/mrboy638')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://chat.whatsapp.com/Ddpls6dkyhH0EFuH1V1epL')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/junsatridvsh')
 OWNERID = int(os.environ.get('OWNERID', '6045160821'))  # Replace with the actual admin ID
 
 # ============================
